@@ -12,6 +12,6 @@ class ParentsSeeder extends Seeder
      */
     public function run(): void
     {
-        Parents::factory()->count(1000)->create();
+        Parents::factory()->count(100)->create();
     }
 }
